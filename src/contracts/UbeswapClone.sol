@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
-contract UbswapClone {
-    string  public name = "Ubswap Clone";
+contract UbeswapClone {
+    string  public name = "Ubeswap Clone";
     string  public symbol = "UBC";
     uint256 public totalSupply = 1000000; // 1 million tokens
     uint8   public decimals = 18;
