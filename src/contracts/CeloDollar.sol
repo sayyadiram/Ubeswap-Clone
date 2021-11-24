@@ -1,6 +1,11 @@
-pragma solidity ^0.5.0;
+pragma solidity >=0.4.0 <0.9.0;
 
-contract CeloDollar {
+//import @openzepplin/contract/ownership/Ownable.sol;
+//import @openzepplin/contract/math/SafeMath.sol;
+
+contract CeloDollar {/* is Onpwnable*/ 
+   // using SafeMath for uint256;
+
     string  public name = "Celo Dollar";
     string  public symbol = "cUSD";
     uint256 public totalSupply = 1000000; // 1 million tokens
@@ -40,4 +45,6 @@ contract CeloDollar {
         emit Transfer(_from, _to, _value);
         return true;
     }
+
+    //function burn(address)
 }
